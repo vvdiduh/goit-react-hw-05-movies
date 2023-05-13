@@ -1,0 +1,30 @@
+.nav {
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  padding: 20px;
+}
+
+.navList {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navLink {
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 300ms ease;
+}
+
+.navLinkNotActive {
+  color: black;
+}
+
+.navLink:hover,
+.navLinkActive {
+  color: orange;
+}
